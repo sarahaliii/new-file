@@ -8,3 +8,21 @@
   background:darkgreen;
   transform:scale(1.1);
 }
+.option{
+  display:none;
+  background:gray;
+  padding:4px;
+}
+.dropdown:hover .option{
+  display:block;
+}
+.option a {
+  display:block;
+  padding:5px;
+  text-decoration:none;
+  color:black;
+}
+.dropdown {
+  position:relative;
+  dispaly:inline-block;
+}
